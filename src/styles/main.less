@@ -1,26 +1,4 @@
 @import "./base/reset.less";
 @import "./base/properties.less";
 @import "./base/base.less";
-
-.header {
-  padding-top: 123px;
-  text-align: center;
-
-  &__logo {
-    margin-bottom: 60px;
-  }
-
-  &::before {
-    background-image: url("../assets/images/background/bg-header-mobile.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: "";
-    display: block;
-    height: 363px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-  }
-}
+@import "./layout/header.less";
