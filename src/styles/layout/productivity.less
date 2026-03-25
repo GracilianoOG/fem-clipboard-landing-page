@@ -4,4 +4,20 @@
   &__title {
     margin-bottom: 12px;
   }
+
+  &__item {
+    &::before {
+      background-size: contain;
+      background-repeat: no-repeat;
+      content: "";
+      display: block;
+      margin: 0 auto;
+    }
+
+    &--blacklist::before {
+      background-image: url("../../assets/images/icons/features/icon-blacklist.svg");
+      height: 40px;
+      width: 44px;
+    }
+  }
 }
