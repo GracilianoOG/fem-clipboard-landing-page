@@ -28,4 +28,18 @@
     display: flex;
     gap: 40px;
   }
+
+  &__social {
+    --icon-size: 24px;
+
+    &::before {
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      content: "";
+      display: block;
+      width: var(--icon-size);
+      height: var(--icon-size);
+    }
+  }
 }
