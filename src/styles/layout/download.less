@@ -6,8 +6,13 @@
   }
 
   &__description {
-    .text-box-centered();
-    font-size: var(--text-font-md);
     margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: 62rem) {
+    &__description {
+      .text-box-centered();
+      font-size: var(--text-font-md);
+    }
   }
 }
