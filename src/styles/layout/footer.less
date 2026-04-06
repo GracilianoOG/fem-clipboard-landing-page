@@ -1,4 +1,6 @@
 .footer {
+  --link-hover-col: var(--green-500);
+
   align-items: center;
   background-color: var(--background-secondary-color);
   display: flex;
@@ -21,6 +23,10 @@
     color: var(--primary-color);
     font-size: 1.125rem;
     text-decoration: none;
+
+    &:hover {
+      color: var(--link-hover-col);
+    }
   }
 
   &__socials {
