@@ -14,7 +14,7 @@
   --background-secondary-color: var(--gray-100);
 
   // Font sizes
-  --title-font-lg: 1.9375rem;
+  --title-font-lg: clamp(1.9375rem, 4.5vw, 2.7813rem);
   --title-font-md: 1.6875rem;
   --title-font-sm: 1.4375rem;
   --text-font-lg: 1.2688rem;
@@ -25,7 +25,6 @@
   --page-width: 1440px;
 
   @media screen and (min-width: 62rem) {
-    --title-font-lg: 2.7813rem;
     --title-font-md: 2.175rem;
   }
 }
