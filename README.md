@@ -75,6 +75,7 @@ npm run dev
 - [What is grid-auto-flow](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-auto-flow)
 - [The minmax() function](https://css-tricks.com/almanac/functions/m/minmax/)
 - [The repeat() function](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/repeat)
+- [CSS min(), max(), and clamp()](https://web.dev/articles/min-max-clamp)
 
 ## 🧑🏻‍💻 Author
 
