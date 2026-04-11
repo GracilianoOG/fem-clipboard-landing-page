@@ -5,7 +5,9 @@
   --button-size: 310px;
 
   border-radius: 1.75rem;
-  box-shadow: 0px -3px 0px rgba(0, 0, 0, 0.25) inset;
+  box-shadow:
+    0px -3px 0px rgba(0, 0, 0, 0.25) inset,
+    0px 8px 32px 0px var(--shadow-col);
   color: var(--button-color);
   text-decoration: none;
   padding: 16px 0;
@@ -19,10 +21,16 @@
   }
 
   &--ios {
+    --shadow-col: color-mix(in srgb, var(--primary-bg-color) 50%, transparent);
     background-color: var(--primary-bg-color);
   }
 
   &--mac {
+    --shadow-col: color-mix(
+      in srgb,
+      var(--secondary-bg-color) 50%,
+      transparent
+    );
     background-color: var(--secondary-bg-color);
   }
 
