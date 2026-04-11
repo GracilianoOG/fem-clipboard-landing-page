@@ -76,6 +76,8 @@ npm run dev
 - [The minmax() function](https://css-tricks.com/almanac/functions/m/minmax/)
 - [The repeat() function](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/repeat)
 - [CSS min(), max(), and clamp()](https://web.dev/articles/min-max-clamp)
+- [Auto-Sizing Columns in CSS Grid](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/)
+- [grid-auto-flow](https://css-tricks.com/almanac/properties/g/grid/grid-auto-flow/)
 
 ## 🧑🏻‍💻 Author
 
